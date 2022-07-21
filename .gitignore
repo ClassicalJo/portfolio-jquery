@@ -1,1 +1,7 @@
+<<<<<<< Updated upstream
 .env
+=======
+.env
+/node_modules
+/build/bundle.js
+>>>>>>> Stashed changes
