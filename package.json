@@ -1,6 +1,10 @@
 {
   "scripts": {
+<<<<<<< Updated upstream
     "dev": "webpack --watch serve"
+=======
+    "dev": "webpack serve"
+>>>>>>> Stashed changes
   },
   "devDependencies": {
     "ts-loader": "^9.3.1",
