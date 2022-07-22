@@ -11,90 +11,169 @@
 </head>
 
 <body>
-    <header>
-        <nav>
-            <a href="#home"><img alt="Home" /></a>
-            <a href="#about"><img alt="About me" /></a>
-            <a href="#work"><img alt="Work experience" /></a>
-            <a href="#cv"><img alt="My curriculum vitae" /></a>
-            <a href="#contact"><img alt="Contact me" /></a>
-        </nav>
-    </header>
-    <main>
-        <section id="home">
-            <div>
-                <h1>Jose Barrientos</h1>
-                <p>Front End Developer - Javascript - React - Next</p>
-                <p>Argentina</p>
+    <div>
+        <header>
+            <nav class="navbar navbar-expand-lg bg-dark">
+                <a href="#home"><img alt="Home" /></a>
+                <a href="#about"><img alt="About me" /></a>
+                <a href="#work"><img alt="Work experience" /></a>
+                <a href="#cv"><img alt="My curriculum vitae" /></a>
+                <a href="#contact"><img alt="Contact me" /></a>
+            </nav>
+        </header>
+        <main class="container-xxl">
+            <div class="row">
+                <div class="col-lg-8 col-sm-12">
+                    <section id="home" class="card text-bg-light mb-3">
+                        <h1 class="card-header">image</h1>
+                        <div class="card-body row">
+                            <div class='col-lg-8 col-sm-12'>
+                                <h2 class="card-title">José Barrientos</h2>
+                                <p>Front End Developer - Javascript - React - Next</p>
+                                <p>Argentina</p>
+                            </div>
+                            <div class="col-lg-4 col-sm-12">
+                                <p class="fs-6">Instituto Nacional de Servicios Sociales para Jubilados y Pensionados
+                                </p>
+                                <p class="fs-6">Egresado de la Universidad de Buenos Aires</p>
+                                <p class="fs-8 ">Sitio web personal</p>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="about" class="card text-bg-light mb-3">
+                        <h2 class="card-header">About me</h2>
+                        <div class="card-body">
+                            <p>
+                                Web developer, mostly focused on Javascript and React. Spent the last two years studying
+                                English in Australia.
+                            </p>
+                            <ul>
+                                <li>IELTS Score: Band 8 - Proficient</li>
+                                <li>HTML/CSS</li>
+                                <li>Javascript</li>
+                                <li>Git & Github</li>
+                                <li>Node & Express</li>
+                                <li>REST</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section id="cv" class="card text-bg-light mb-3">
+                        <div class="card-header">
+                            <div class="row">
+                                <h2 class="col-9">Curriculum vitae</h2>
+                                <p class="col-3">Download</p>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <section id="work">
+                                <h2>Work experience</h2>
+                                <div class="job-entry">
+                                    <p><strong>Lawyer</strong></p>
+                                    <p>Estudio Nuñez</p>
+                                    <p>April 2019 - Present</p>
+                                </div>
+                                <div class="job-entry">
+                                    <p><strong>Administrative employee</strong></p>
+                                    <p>Instituto Nacional de Servicios Sociales para Jubilados y Pensionados</p>
+                                    <p>October 2007 - June 2017. 9 years and 9 months</p>
+                                </div>
+                            </section>
+                            <section>
+                                <h2>Education</h2>
+                                <div class="ed-entry">
+                                    <p>Universidad de Buenos Aires</p>
+                                    <p>Bachelor's degree in Criminal Law</p>
+                                    <p>2008-2016</p>
+                                </div>
+                                <div class="ed-entry">
+                                    <p>r/Argentina-Programa</p>
+                                    <p>Student</p>
+                                    <p>2019-Present</p>
+                                </div>
+                            </section>
+                            <section>
+                                <h2>Spoken languages</h2>
+                                <div class="language-entry">
+                                    <p>English</p>
+                                    <p>Full working competence</p>
+                                </div>
+                                <div class="language-entry">
+                                    <p>Spanish</p>
+                                    <p>Native</p>
+                                </div>
+
+                            </section>
+                        </div>
+                    </section>
+                    <section id="contact" class="card">
+                        <h2 class="card-header">Contact me</h2>
+                        <div class="card-body">
+                            <p>My Linkedin Profile</p>
+                            <p>My Personal Portfolio</p>
+                            <p>My Github Profile</p>
+                            <p>My E-mail Address</p>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-sm-12 col-md-4 col-lg-2">
+                    <aside class="card">
+                        <div class="card-body row">
+                            <p class="col">Español</p>
+                            <p class="col">English</p>
+                        </div>
+                    </aside>
+                    <aside class="card">
+                        <h4 class="card-header">Soft skills</h4>
+                        <div class="card-body">
+                            <p>Team builder</p>
+                            <p>Communicator</p>
+                            <p>Adaptable</p>
+                            <p>Time management</p>
+                            <p>Proactive</p>
+                        </div>
+                    </aside>
+                    <aside class="card">
+                        <h4 class="card-header">Tech stack</h4>
+                        <div class="card-body">
+                            <p>Javascript</p>
+                            <p>React</p>
+                            <p>Styled Components</p>
+                            <p>Next</p>
+                            <p>PostgreSQL</p>
+                        </div>
+                    </aside>
+                    <aside class="card">
+                        <h4 class="card-header">Latest projects</h4>
+                        <div class="card-body">
+                            <section>
+                                <p class="card-title">Aerolab's Frontend Challenge</p>
+                                <p>Repository</p>
+                                <p>Deploy</p>
+                            </section>
+                            <hr />
+                            <section>
+                                <p class="card-title">Blinker</p>
+                                <p>Repository</p>
+                                <p>Deploy</p>
+                            </section>
+                            <hr />
+                            <section>
+                                <p class="card-title">Reflections</p>
+                                <p>Repository</p>
+                                <p>Deploy</p>
+                            </section>
+                        </div>
+                    </aside>
+                </div>
             </div>
-            <div>
-                <p>Instituto Nacional de Servicios Sociales para Jubilados y Pensionados</p>
-                <p>Egresado de la Universidad de Buenos Aires</p>
-                <p>Sitio web personal</p>
-            </div>
-        </section>
-        <section id="about">
-            <div>
-                <h2>About me</h2>
-                <p>
-                    Web developer, mostly focused on Javascript and React. <br />
-                    Spent the last two years studying English in Australia.
-                </p>
-                <ul>
-                    <li>IELTS Score: Band 8 - Proficient</li>
-                    <li>HTML/CSS</li>
-                    <li>Javascript</li>
-                    <li>Git & Github</li>
-                    <li>Node & Express</li>
-                    <li>REST</li>
-                </ul>
-            </div>
-        </section>
-        <section id="work">
-            <h2>Work experience</h2>
-            <div class="job-entry">
-                <p><strong>Criminal Lawyer</strong></p>
-                <p>Estudio Nuñez</p>
-                <p>April 2019 - Present</p>
-            </div>
-            <div class="job-entry">
-                <p><strong>Administrative employee</strong></p>
-                <p>Instituto Nacional de Servicios Sociales para Jubilados y Pensionados</p>
-                <p>October 2007 - June 2017. 9 years and 9 months</p>
-            </div>
-        </section>
-        <section>
-            <h2>Education</h2>
-            <div class="ed-entry">
-                <p>Universidad de Buenos Aires</p>
-                <p>Bachelor's degree in Criminal Law</p>
-                <p>2008-2016</p>
-            </div>
-            <div class="ed-entry">
-                <p>r/Argentina-Programa</p>
-                <p>Student</p>
-                <p>2019-Present</p>
-            </div>
-        </section>
-        <section>
-            <h2>Spoken languages</h2>
-            <div class="language-entry">
-                <p>English</p>
-                <p>Full working competence</p>
-            </div>
-            <div class="language-entry">
-                <p>Spanish</p>
-                <p>Native</p>
-            </div>
-        </section>
-        <section>
-            <h2>Contact me</h2>
-            <p>My Linkedin Profile</p>
-            <p>My Personal Portfolio</p>
-            <p>My Github Profile</p>
-            <p>My E-mail Address</p>
-        </section>
-    </main>
+        </main>
+        <footer class="p-3 mb-2 bg-secondary bg-gradient text-white">
+            <section class="container">
+                <p>This page was created for the Module 2 challenge of Argentina Programa, in which you are supposed to
+                    make a static web page using Typescript, CSS, Bootstrap and JQuery.</p>
+            </section>
+        </footer>
+    </div>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
