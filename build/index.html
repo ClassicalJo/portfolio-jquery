@@ -11,9 +11,9 @@
 </head>
 
 <body>
-    <div>
-        <header>
-            <nav class="navbar navbar-expand-lg bg-dark">
+    <div class="bg-light">
+        <header class="fixed-top">
+            <nav class="navbar navbar-expand-lg bg-white ">
                 <a href="#home"><img alt="Home" /></a>
                 <a href="#about"><img alt="About me" /></a>
                 <a href="#work"><img alt="Work experience" /></a>
@@ -21,28 +21,43 @@
                 <a href="#contact"><img alt="Contact me" /></a>
             </nav>
         </header>
-        <main class="container-xxl">
-            <div class="row">
-                <div class="col-lg-8 col-sm-12">
+        <main class="container mb-5">
+            <div class="row mt-3 ">
+                <div class="col-lg-8 col-sm-12 mt-5">
                     <section id="home" class="card text-bg-light mb-3">
-                        <h1 class="card-header">image</h1>
-                        <div class="card-body row">
-                            <div class='col-lg-8 col-sm-12'>
-                                <h2 class="card-title">José Barrientos</h2>
-                                <p>Front End Developer - Javascript - React - Next</p>
-                                <p>Argentina</p>
+                        <div class="card-header p-2" style="height:200px">
+                            <div class="position-absolute rounded-circle border bg-white shadow-sm" style="
+                            width:128px;
+                            height:128px;
+                            top:136px;
+
+        
+                            ">
+                                <img class="rounded-circle" width="118" height="118" style="margin-left:4px; margin-top:4px" src="https://via.placeholder.com/128" />
                             </div>
-                            <div class="col-lg-4 col-sm-12">
-                                <p class="fs-6">Instituto Nacional de Servicios Sociales para Jubilados y Pensionados
-                                </p>
-                                <p class="fs-6">Egresado de la Universidad de Buenos Aires</p>
-                                <p class="fs-8 ">Sitio web personal</p>
+
+                        </div>
+                        <div class="card-body container bg-white" style="padding-top:76px;">
+                            <div class="row">
+                                <div class='col-lg-8 col-sm-12'>
+                                    <h2 class="card-title">José Barrientos</h2>
+                                    <p>Front End Developer - Javascript - React - Next</p>
+                                    <p>Argentina</p>
+                                </div>
+                                <div class="col-lg-4 col-sm-12">
+                                    <p class="fs-6">Instituto Nacional de Servicios Sociales para Jubilados y
+                                        Pensionados
+                                    </p>
+                                    <p class="fs-6">Egresado de la Universidad de Buenos Aires</p>
+                                    <p class="fs-8 ">Sitio web personal</p>
+                                </div>
                             </div>
+
                         </div>
                     </section>
                     <section id="about" class="card text-bg-light mb-3">
                         <h2 class="card-header">About me</h2>
-                        <div class="card-body">
+                        <div class="card-body bg-white">
                             <p>
                                 Web developer, mostly focused on Javascript and React. Spent the last two years studying
                                 English in Australia.
@@ -64,7 +79,7 @@
                                 <p class="col-3">Download</p>
                             </div>
                         </div>
-                        <div class="card-body">
+                        <div class="card-body bg-white">
                             <section id="work">
                                 <h2>Work experience</h2>
                                 <div class="job-entry">
@@ -115,14 +130,14 @@
                         </div>
                     </section>
                 </div>
-                <div class="col-sm-12 col-md-4 col-lg-2">
-                    <aside class="card">
+                <div class="col-sm-12 col-lg-4 mt-5">
+                    <aside class="card mb-3">
                         <div class="card-body row">
-                            <p class="col">Español</p>
-                            <p class="col">English</p>
+                            <p class="col mb-0">Español</p>
+                            <p class="col mb-0">English</p>
                         </div>
                     </aside>
-                    <aside class="card">
+                    <aside class="card mb-3">
                         <h4 class="card-header">Soft skills</h4>
                         <div class="card-body">
                             <p>Team builder</p>
@@ -132,7 +147,7 @@
                             <p>Proactive</p>
                         </div>
                     </aside>
-                    <aside class="card">
+                    <aside class="card mb-3">
                         <h4 class="card-header">Tech stack</h4>
                         <div class="card-body">
                             <p>Javascript</p>
@@ -167,10 +182,11 @@
                 </div>
             </div>
         </main>
-        <footer class="p-3 mb-2 bg-secondary bg-gradient text-white">
+        <footer class="p-3 bg-secondary bg-gradient text-white mt-5">
             <section class="container">
                 <p>This page was created for the Module 2 challenge of Argentina Programa, in which you are supposed to
                     make a static web page using Typescript, CSS, Bootstrap and JQuery.</p>
+                <p>See this repository on Github</p>
             </section>
         </footer>
     </div>
