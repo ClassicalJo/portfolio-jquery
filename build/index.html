@@ -12,29 +12,38 @@
 
 <body>
     <div class="bg-light">
-        <header class="fixed-top">
-            <nav class="navbar navbar-expand-lg bg-white ">
-                <a href="#home"><img alt="Home" /></a>
-                <a href="#about"><img alt="About me" /></a>
-                <a href="#work"><img alt="Work experience" /></a>
-                <a href="#cv"><img alt="My curriculum vitae" /></a>
-                <a href="#contact"><img alt="Contact me" /></a>
+        <header class="fixed-top navbar-light bg-white border-bottom">
+            <nav class="navbar navbar-expand-lg  container">
+                <div class="container-fluid">
+                    <div class="navbar-brand d-flex" style="align-items: center;justify-content:center;">
+                        <a class="navbar-brand" href="http://classicaljo.github.io/portfolio">
+                            <img width="35" height="35"
+                                src="https://github.com/ClassicalJo/portfolio/raw/master/public/widetile.png?raw=true">
+                        </a>
+                        <span class="navbar-text">ClassicalJo</span>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ">
+                            <a class="nav-link" aria-current="page" href="#home">About me</a>
+                            <a class="nav-link" aria-current="page" href="#cv">Curriculum Vitae</a>
+                            <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                        </div>
+                    </div>
+                </div>
             </nav>
         </header>
-        <main class="container mb-5">
-            <div class="row mt-3 ">
+        <main class="container mb-5" style="padding-top:50px">
+            <div class="row">
                 <div class="col-lg-8 col-sm-12 mt-5">
                     <section id="home" class="card text-bg-light mb-3">
-                        <div class="card-header p-2" style="height:200px">
-                            <div class="position-absolute rounded-circle border bg-white shadow-sm" style="
-                            width:128px;
-                            height:128px;
-                            top:136px;
-
-        
-                            ">
-                                <img class="rounded-circle" width="118" height="118" style="margin-left:4px; margin-top:4px" src="https://via.placeholder.com/128" />
-                            </div>
+                        <div class="card-header p-2 position-relative" style="height:200px">
+                            <img class="position-absolute rounded-circle img-thumbnail top-100 start-0 translate-middle-y ms-2"
+                                width="118" height="118" src="https://via.placeholder.com/128" />
 
                         </div>
                         <div class="card-body container bg-white" style="padding-top:76px;">
@@ -49,7 +58,8 @@
                                         Pensionados
                                     </p>
                                     <p class="fs-6">Egresado de la Universidad de Buenos Aires</p>
-                                    <p class="fs-8 ">Sitio web personal</p>
+                                    <button type="button" class="btn btn-primary rounded-pill"
+                                        style="width:150px">Personal website</button>
                                 </div>
                             </div>
 
@@ -73,10 +83,13 @@
                         </div>
                     </section>
                     <section id="cv" class="card text-bg-light mb-3">
-                        <div class="card-header">
-                            <div class="row">
-                                <h2 class="col-9">Curriculum vitae</h2>
-                                <p class="col-3">Download</p>
+                        <div class="card-header align-bottom">
+                            <div class="d-flex" style="align-items: center;">
+                                <h2 class="d-flex m-0 align-text-bottom" style="flex:1;">Curriculum vitae</h2>
+                                <div class="align-center">
+                                    <button type="button" class="btn btn-primary rounded-pill">Download</button>
+                                </div>
+
                             </div>
                         </div>
                         <div class="card-body bg-white">
@@ -123,59 +136,93 @@
                     <section id="contact" class="card">
                         <h2 class="card-header">Contact me</h2>
                         <div class="card-body">
-                            <p>My Linkedin Profile</p>
-                            <p>My Personal Portfolio</p>
-                            <p>My Github Profile</p>
-                            <p>My E-mail Address</p>
+                            <ul>
+                                <li><a class="link-primary" href="https://www.linkedin.com/in/classicaljo/">My Linkedin
+                                        Profile</a></li>
+                                <li><a class="link-primary" href="https://classicaljo.github.io/portfolio">My Personal
+                                        Portfolio</a></li>
+                                <li><a class="link-primary" href="https://github.com/classicaljo">My Github Profile</a>
+                                </li>
+                                <li><a class="link-primary" href="mailto:jb.barrientos@gmail.com">My E-mail Address</a>
+                                </li>
+                            </ul>
                         </div>
                     </section>
                 </div>
                 <div class="col-sm-12 col-lg-4 mt-5">
                     <aside class="card mb-3">
                         <div class="card-body row">
-                            <p class="col mb-0">Español</p>
-                            <p class="col mb-0">English</p>
+                            <div class="col mb-0 py-1">
+                                <button type="button"
+                                    class="btn btn-outline-secondary position-relative start-50 top-50 translate-middle rounded-pill"
+                                    style="width:150px;">Español</button>
+                            </div>
+                            <div class="col mb-0 py-1">
+                                <button type="button"
+                                    class="btn btn-primary position-relative start-50 top-50 translate-middle rounded-pill"
+                                    style="width:150px;">English</button>
+                            </div>
                         </div>
                     </aside>
                     <aside class="card mb-3">
                         <h4 class="card-header">Soft skills</h4>
                         <div class="card-body">
-                            <p>Team builder</p>
-                            <p>Communicator</p>
-                            <p>Adaptable</p>
-                            <p>Time management</p>
-                            <p>Proactive</p>
+                            <ul class="list-group list-group-flush ">
+                                <li class="list-group-item px-0">Team builder</li>
+                                <li class="list-group-item px-0">Communicator</li>
+                                <li class="list-group-item px-0">Adaptable</li>
+                                <li class="list-group-item px-0">Time management</li>
+                                <li class="list-group-item px-0">Proactive</li>
+                            </ul>
                         </div>
                     </aside>
                     <aside class="card mb-3">
                         <h4 class="card-header">Tech stack</h4>
                         <div class="card-body">
-                            <p>Javascript</p>
-                            <p>React</p>
-                            <p>Styled Components</p>
-                            <p>Next</p>
-                            <p>PostgreSQL</p>
+                            <ul class="list-group list-group-flush ">
+                                <li class="list-group-item px-0">Javascript</li>
+                                <li class="list-group-item px-0">React</li>
+                                <li class="list-group-item px-0">Styled Components</li>
+                                <li class="list-group-item px-0">Next</li>
+                                <li class="list-group-item px-0">PostgreSQL</li>
+                            </ul>
                         </div>
                     </aside>
                     <aside class="card">
                         <h4 class="card-header">Latest projects</h4>
                         <div class="card-body">
                             <section>
-                                <p class="card-title">Aerolab's Frontend Challenge</p>
-                                <p>Repository</p>
-                                <p>Deploy</p>
+                                <p class="card-title fw-bold">Aerolab's Frontend Challenge</p>
+                                <p>Frontpage app using Figma </p>
+                                <div class="d-flex" style="gap:20px">
+                                    <button type="button" class="btn btn-outline-primary rounded-pill btn-sm"
+                                        style="flex:1">Repository</button>
+                                    <button type="button" class="btn btn-primary rounded-pill btn-sm"
+                                        style="flex:1">Deploy</button>
+                                </div>
+
                             </section>
                             <hr />
                             <section>
-                                <p class="card-title">Blinker</p>
-                                <p>Repository</p>
-                                <p>Deploy</p>
+                                <p class="card-title fw-bold">Blinker</p>
+                                <p>JSK13 Game Jam - Chill space game</p>
+                                <div class="d-flex" style="gap:20px">
+                                    <button type="button" class="btn btn-outline-primary rounded-pill btn-sm"
+                                        style="flex:1">Repository</button>
+                                    <button type="button" class="btn btn-primary rounded-pill btn-sm"
+                                        style="flex:1">Deploy</button>
+                                </div>
                             </section>
                             <hr />
                             <section>
-                                <p class="card-title">Reflections</p>
-                                <p>Repository</p>
-                                <p>Deploy</p>
+                                <p class="card-title fw-bold">Reflections</p>
+                                <p>Small canvas animation</p>
+                                <div class="d-flex" style="gap:20px">
+                                    <button type="button" class="btn btn-outline-primary rounded-pill btn-sm"
+                                        style="flex:1">Repository</button>
+                                    <button type="button" class="btn btn-primary rounded-pill btn-sm"
+                                        style="flex:1">Deploy</button>
+                                </div>
                             </section>
                         </div>
                     </aside>
@@ -186,7 +233,9 @@
             <section class="container">
                 <p>This page was created for the Module 2 challenge of Argentina Programa, in which you are supposed to
                     make a static web page using Typescript, CSS, Bootstrap and JQuery.</p>
-                <p>See this repository on Github</p>
+                <a class="link-light fw-bold" href="http://github.com/classicaljo/portfolio-jquery">See this repository
+                    on Github</a>
+
             </section>
         </footer>
     </div>
