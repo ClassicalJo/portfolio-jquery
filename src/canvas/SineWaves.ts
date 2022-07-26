@@ -15,11 +15,10 @@ export class SineWaves implements RawAnimation {
         this.hex = "#0d6efd"
         this.rgb = [13, 110, 253]
         let speed = .05
-        // let speed = 1
         let freq = .005
         let amp = height / 3
-        let waveA = new Wave({ x: 0, y: amp +50 }, width, amp, freq, speed, 1, 0)
-        let waveB = new Wave({ x: width, y: height - amp -50 }, width, amp, freq, speed, 1, 0)
+        let waveA = new Wave({ x: 0, y: amp +50 }, width, amp, freq, speed, 1)
+        let waveB = new Wave({ x: width, y: height - amp -50 }, width, amp, freq, speed, 1)
         this.bodies = [waveA, waveB]
         this.start()
     }
@@ -31,7 +30,7 @@ export class SineWaves implements RawAnimation {
     }
     clear() {
         this.ctx.save()
-        this.ctx.fillStyle = "rgba(13,110,253,.03)"
+        this.ctx.fillStyle = "rgba(13,110,253,.05)"
         this.ctx.fillRect(0, 0, this.w, this.h)
         this.ctx.restore()
     }
