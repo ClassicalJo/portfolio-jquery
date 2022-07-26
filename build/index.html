@@ -18,6 +18,7 @@
                     <div class="navbar-brand d-flex" style="align-items: center;justify-content:center;">
                         <a class="navbar-brand" href="http://classicaljo.github.io/portfolio">
                             <img width="35" height="35"
+                                alt="My logo, a white wolf"
                                 src="https://github.com/ClassicalJo/portfolio/raw/master/public/widetile.png?raw=true">
                         </a>
                         <span class="navbar-text">ClassicalJo</span>
@@ -42,10 +43,10 @@
                 <div class="col-lg-8 col-sm-12 mt-5">
                     <section id="home" class="card text-bg-light mb-3 position-relative">
                         <div class="card-header p-0 position-relative d-flex" style="height:200px; overflow:hidden ">
-                            <canvas height="200" width="800" style="flex:1 " id="canvas"></canvas>                        
+                            <canvas height="200" width="800" style="flex:1 " id="canvas" role="img" alt="My Linkedin Banner, two spiraling flashing lights on a blue field"></canvas>
                         </div>
-                        <img class="position-absolute rounded-circle img-thumbnail translate-middle-y ms-2" style="top:200px"
-                                width="118" height="118" src="https://via.placeholder.com/128" />
+                        <img class="position-absolute rounded-circle img-thumbnail translate-middle-y ms-2"
+                            style="top:200px" width="118" height="118" src="./images/profile.jpg" alt="My profile picture"/>
                         <div class="card-body container bg-white" style="padding-top:76px;">
                             <div class="row">
                                 <div class='col-lg-8 col-sm-12'>
@@ -54,12 +55,24 @@
                                     <p>Argentina</p>
                                 </div>
                                 <div class="col-lg-4 col-sm-12">
-                                    <p class="fs-6">Instituto Nacional de Servicios Sociales para Jubilados y
-                                        Pensionados
-                                    </p>
-                                    <p class="fs-6">Egresado de la Universidad de Buenos Aires</p>
-                                    <button type="button" class="btn btn-primary rounded-pill"
-                                        style="width:150px">Personal website</button>
+                                    <div class="d-flex">
+                                        <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                            src="./icons/work.png" alt="">
+                                        <p class="fs-6">Instituto Nacional de Servicios Sociales para Jubilados y
+                                            Pensionados</p>
+                                    </div>
+
+                                    <div class="d-flex">
+                                        <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                            src="./icons/college.png" alt="">
+                                        <p class="fs-6">University of Buenos Aires</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                            src="./icons/link.png" alt="">
+                                        <a class="link-primary "
+                                            href="https://classicaljo.github.io/portfolio">Personal website</a>
+                                    </div>                                
                                 </div>
                             </div>
 
@@ -87,7 +100,7 @@
                             <div class="d-flex" style="align-items: center;">
                                 <h2 class="d-flex m-0 align-text-bottom" style="flex:1;">Curriculum vitae</h2>
                                 <div class="align-center">
-                                    <button type="button" class="btn btn-primary rounded-pill">Download</button>
+                                    <button type="button" class="btn btn-primary rounded-pill btn-sm">Download</button>
                                 </div>
 
                             </div>
@@ -154,11 +167,31 @@
                         <h4 class="card-header">Soft skills</h4>
                         <div class="card-body">
                             <ul class="list-group list-group-flush ">
-                                <li class="list-group-item px-0">Team builder</li>
-                                <li class="list-group-item px-0">Communicator</li>
-                                <li class="list-group-item px-0">Adaptable</li>
-                                <li class="list-group-item px-0">Time management</li>
-                                <li class="list-group-item px-0">Proactive</li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/team.png" alt="">
+                                    Team builder
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/communication.png" alt="">
+                                    Communicator
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/adaptable.png" alt="">
+                                    Adaptable
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/time.png" alt="">
+                                    Time management
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/proactive.png" alt="">
+                                    Proactive
+                                </li>
                             </ul>
                         </div>
                     </aside>
@@ -166,11 +199,31 @@
                         <h4 class="card-header">Tech stack</h4>
                         <div class="card-body">
                             <ul class="list-group list-group-flush ">
-                                <li class="list-group-item px-0">Javascript</li>
-                                <li class="list-group-item px-0">React</li>
-                                <li class="list-group-item px-0">Styled Components</li>
-                                <li class="list-group-item px-0">Next</li>
-                                <li class="list-group-item px-0">PostgreSQL</li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/js.png" alt="">
+                                    Javascript
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/react.png" alt="">
+                                    React
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/styled.png" alt="">
+                                    Styled Components
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/next.png" alt="">
+                                    Next
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/sql.png" alt="">
+                                    PostgreSQL
+                                </li>
                             </ul>
                         </div>
                     </aside>
