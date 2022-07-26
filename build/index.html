@@ -40,12 +40,12 @@
         <main class="container mb-5" style="padding-top:50px">
             <div class="row">
                 <div class="col-lg-8 col-sm-12 mt-5">
-                    <section id="home" class="card text-bg-light mb-3">
-                        <div class="card-header p-2 position-relative" style="height:200px">
-                            <img class="position-absolute rounded-circle img-thumbnail top-100 start-0 translate-middle-y ms-2"
-                                width="118" height="118" src="https://via.placeholder.com/128" />
-
+                    <section id="home" class="card text-bg-light mb-3 position-relative">
+                        <div class="card-header p-0 position-relative d-flex" style="height:200px; overflow:hidden ">
+                            <canvas height="200" width="800" style="flex:1 " id="canvas"></canvas>                        
                         </div>
+                        <img class="position-absolute rounded-circle img-thumbnail translate-middle-y ms-2" style="top:200px"
+                                width="118" height="118" src="https://via.placeholder.com/128" />
                         <div class="card-body container bg-white" style="padding-top:76px;">
                             <div class="row">
                                 <div class='col-lg-8 col-sm-12'>
