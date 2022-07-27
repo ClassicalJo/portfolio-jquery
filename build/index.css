@@ -1,0 +1,29 @@
+.navbar-brand {
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    padding-top: 50px
+}
+
+#banner {
+    height: 200px;
+    overflow: hidden;
+}
+
+#profile {
+    top: 200px;
+}
+
+#content {
+    padding-top: 76px;
+}
+
+.flex-1 {
+    flex: 1;
+}
+
+.button-gap {
+    gap: 20px;
+}
