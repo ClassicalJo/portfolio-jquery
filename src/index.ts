@@ -1,4 +1,5 @@
 import { animation } from './canvas/index'
-let hello: string = "hello worldsssssssssssssssssssss"
+import links from './links'
+
 animation.play();
-console.log(hello)
+links.add()
