@@ -1,4 +1,4 @@
-import { animation } from './canvas/index'
+import animation from './canvas'
 import links from './links'
 
 animation.play();
