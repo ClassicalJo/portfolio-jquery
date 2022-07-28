@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
+    <link rel="stylesheet" href="./index.css" />
+    <title>Jose Barrientos</title>
+</head>
+
+<body>
+    <div class="bg-light">
+        <header class="fixed-top navbar-light bg-white border-bottom">
+            <nav id="nav" class="navbar navbar-expand-lg  container">
+                <div class="container-fluid">
+                    <div class="navbar-brand d-flex">
+                        <a class="navbar-brand" href="http://classicaljo.github.io/portfolio">
+                            <img width="35" height="35" alt="My logo, a white wolf"
+                                src="https://github.com/ClassicalJo/portfolio/raw/master/public/widetile.png?raw=true">
+                        </a>
+                        <span class="navbar-text">ClassicalJo</span>
+                    </div>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                        aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse flex-row-reverse" id="navbarNavAltMarkup">
+                        <div class="navbar-nav ">
+                            <a class="nav-link" aria-current="page" href="#home">About me</a>
+                            <a class="nav-link" aria-current="page" href="#cv">Curriculum Vitae</a>
+                            <a class="nav-link" aria-current="page" href="#contact">Contact</a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <main class="container mb-5">
+            <div class="row">
+                <div class="col-lg-8 col-sm-12 mt-5">
+                    <section id="home" class="card text-bg-light mb-3 position-relative">
+                        <div id="banner" class="card-header p-0 position-relative d-flex">
+                            <canvas height="200" width="800" id="canvas" role="img" class="flex-1"
+                                alt="My Linkedin Banner, two spiraling flashing lights on a blue field"></canvas>
+                        </div>
+                        <img class="position-absolute rounded-circle img-thumbnail translate-middle-y ms-2" id="profile"
+                            width="118" height="118" src="./images/profile.jpg" alt="My profile picture" />
+                        <div id="content" class="card-body container bg-white">
+                            <div class="row">
+                                <div class='col-lg-8 col-sm-12'>
+                                    <h2 class="card-title">José Barrientos</h2>
+                                    <p>Front End Developer - Javascript - React - Next</p>
+                                    <p>Argentina</p>
+                                </div>
+                                <div class="col-lg-4 col-sm-12">
+                                    <div class="d-flex">
+                                        <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                            src="./icons/work.png" alt="">
+                                        <p class="fs-6">Instituto Nacional de Servicios Sociales para Jubilados y
+                                            Pensionados</p>
+                                    </div>
+
+                                    <div class="d-flex">
+                                        <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                            src="./icons/college.png" alt="">
+                                        <p class="fs-6">University of Buenos Aires</p>
+                                    </div>
+                                    <div class="d-flex">
+                                        <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                            src="./icons/link.png" alt="">
+                                        <a class="link-primary " href="https://classicaljo.github.io/portfolio">Personal
+                                            website</a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </section>
+                    <section id="about" class="card text-bg-light mb-3">
+                        <h2 class="card-header">About me</h2>
+                        <div class="card-body bg-white">
+                            <p>
+                                Web developer, mostly focused on Javascript and React. Spent the last two years studying
+                                English in Australia.
+                            </p>
+                            <ul>
+                                <li>IELTS Score: Band 8 - Proficient</li>
+                                <li>HTML/CSS</li>
+                                <li>Javascript</li>
+                                <li>Git & Github</li>
+                                <li>Node & Express</li>
+                                <li>REST</li>
+                            </ul>
+                        </div>
+                    </section>
+                    <section id="cv" class="card text-bg-light mb-3">
+                        <div class="card-header align-bottom">
+                            <div class="d-flex align-items-center">
+                                <h2 class="d-flex m-0 align-text-bottom flex-1">Curriculum vitae</h2>
+                                <div class="align-center">
+                                    <button id="download" type="button"
+                                        class="btn btn-primary rounded-pill btn-sm">Download</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-body bg-white">
+                            <section id="work">
+                                <h4 class="my-2">Work experience</h4>
+                                    <ul class="list-group list-group-flush mb-3">
+                                        <div class="job-entry list-group-item job-entry">
+                                            <p class="my-0"><strong>Lawyer</strong></p>
+                                            <p class="my-1">Self employed</p>
+                                            <p class="lighter fs-sm m-0">April 2019 - Present</p>
+                                        </div>
+                                        <div class="job-entry list-group-item job-entry">
+                                            <p class="my-0"><strong>Administrative employee</strong></p>
+                                            <p class="my-1">Instituto Nacional de Servicios Sociales para Jubilados y
+                                                Pensionados</p>
+                                            <p class="lighter fs-sm m-0">October 2007 - June 2017. 9 years and 9 months
+                                            </p>
+                                        </div>
+                            </section>
+                            <section>
+                                <h4 class="my-2">Education</h4>
+                                    <ul class="list-group list-group-flush mb-3">
+                                        <div class="ed-entry list-group-item">
+                                            <p class="my-0"><strong>Universidad de Buenos Aires</strong></p>
+                                            <p class="my-1">Bachelor's degree in Criminal Justice</p>
+                                            <p class="lighter fs-sm m-0">2008-2016</p>
+                                        </div>
+                                        <div class="ed-entry list-group-item ">
+                                            <p class="my-0"><strong>r/Argentina-Programa</strong></p>
+                                            <p class="my-1">Student</p>
+                                            <p class="lighter fs-sm m-0">2019-Present</p>
+                                        </div>
+                                        <div class="ed-entry list-group-item ">
+                                            <p class="my-0"><strong>Argentina Programa</strong></p>
+                                            <p class="my-1">Student</p>
+                                            <p class="lighter fs-sm m-0">2022-Present</p>
+                                        </div>
+                            </section>
+                            <section>
+                                <h4>Languages</h4>
+                                    <ul class="list-group list-group-flush">
+                                        <div class="language-entry list-group-item">
+                                            <p class="mb-1">English</p>
+                                            <p class="fs-sm lighter m-0">Full working competence</p>
+                                        </div>
+                                        <div class="language-entry list-group-item">
+                                            <p class="mb-1">Spanish</p>
+                                            <p class="fs-sm lighter m-0">Native</p>
+                                        </div>
+                                    </ul>
+                            </section>
+                        </div>
+                    </section>
+                    <section id="contact" class="card">
+                        <h2 class="card-header">Contact me</h2>
+                        <div class="card-body">
+                            <ul>
+                                <li><a class="link-primary" href="https://www.linkedin.com/in/classicaljo/">My Linkedin
+                                        Profile</a></li>
+                                <li><a class="link-primary" href="https://classicaljo.github.io/portfolio">My Personal
+                                        Portfolio</a></li>
+                                <li><a class="link-primary" href="https://github.com/classicaljo">My Github Profile</a>
+                                </li>
+                                <li><a class="link-primary" href="mailto:jb.barrientos@gmail.com">My E-mail Address</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </section>
+                </div>
+                <div class="col-sm-12 col-lg-4 mt-5">
+                    <aside class="card mb-3">
+                        <h4 class="card-header">Soft skills</h4>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush ">
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/team.png" alt="">
+                                    Team builder
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/communication.png" alt="">
+                                    Communicator
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/adaptable.png" alt="">
+                                    Adaptable
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/time.png" alt="">
+                                    Time management
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/proactive.png" alt="">
+                                    Proactive
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                    <aside class="card mb-3">
+                        <h4 class="card-header">Tech stack</h4>
+                        <div class="card-body">
+                            <ul class="list-group list-group-flush ">
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/js.png" alt="">
+                                    Javascript
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/react.png" alt="">
+                                    React
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/styled.png" alt="">
+                                    Styled Components
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/next.png" alt="">
+                                    Next
+                                </li>
+                                <li class="list-group-item px-0">
+                                    <img class="align-middle d-inline-block me-3" width="32" height="32"
+                                        src="./icons/sql.png" alt="">
+                                    PostgreSQL
+                                </li>
+                            </ul>
+                        </div>
+                    </aside>
+                    <aside class="card">
+                        <h4 class="card-header">Latest projects</h4>
+                        <div class="card-body">
+                            <section>
+                                <p class="card-title fw-bold">Aerolab's Frontend Challenge</p>
+                                <p>Frontpage app using Figma </p>
+                                <div class="d-flex button-gap">
+                                    <button id="aerolab-repo" type="button"
+                                        class="btn btn-outline-primary rounded-pill btn-sm flex-1">
+                                        Repository</button>
+                                    <button id="aerolab-deploy" type="button"
+                                        class="btn btn-primary rounded-pill btn-sm flex-1">
+                                        Deploy</button>
+                                </div>
+                            </section>
+                            <hr />
+                            <section>
+                                <p class="card-title fw-bold">Blinker</p>
+                                <p>JSK13 Game Jam - Chill space game</p>
+                                <div class="d-flex button-gap">
+                                    <button id="blinker-repo" type="button"
+                                        class="btn btn-outline-primary rounded-pill btn-sm flex-1">
+                                        Repository</button>
+                                    <button id="blinker-deploy" type="button"
+                                        class="btn btn-primary rounded-pill btn-sm flex-1">
+                                        Deploy</button>
+                                </div>
+                            </section>
+                            <hr />
+                            <section>
+                                <p class="card-title fw-bold">Reflections</p>
+                                <p>Small canvas animation</p>
+                                <div class="d-flex button-gap">
+                                    <button id="reflections-repo" type="button"
+                                        class="btn btn-outline-primary rounded-pill btn-sm flex-1">
+                                        Repository</button>
+                                    <button id="reflections-deploy" type="button"
+                                        class="btn btn-primary rounded-pill btn-sm flex-1">
+                                        Deploy</button>
+                                </div>
+                            </section>
+                        </div>
+                    </aside>
+                </div>
+            </div>
+        </main>
+        <footer class="p-3 bg-secondary bg-gradient text-white mt-5">
+            <section class="container">
+                <p>This page was created for the Module 2 challenge of Argentina Programa, in which you are supposed to
+                    make a static web page using Typescript, CSS, Bootstrap and JQuery. I took heavy inspiration on the
+                    fact that Linkedin doesn't let you put a GIF or canvas animation in your profile banner and I wanted
+                    to see what kind of animation I would put there if something like that was allowed. </p>
+                <a class="link-light fw-bold" href="http://github.com/classicaljo/portfolio-jquery">See this repository
+                    on Github</a>
+
+            </section>
+        </footer>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+    crossorigin="anonymous"></script>
+<script src="./bundle.js"></script>
+
+</html>
