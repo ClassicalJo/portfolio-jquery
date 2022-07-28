@@ -31,3 +31,11 @@ main {
 .align-items-center {
     align-items: center;
 }
+
+.fs-sm {
+    font-size: 0.9rem;
+}
+
+.lighter {
+    color: rgba(0,0,0,0.6);
+}
